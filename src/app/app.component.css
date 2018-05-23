@@ -1,0 +1,11 @@
+table {
+  display:block;
+  overflow-y: scroll;
+    width: 100%;
+    height: 20%;
+    
+  }
+
+  td.mat-cell{
+    padding: 10px;
+    }
