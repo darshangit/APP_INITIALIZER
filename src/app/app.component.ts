@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,9 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  data: any;
   title = 'app';
   displayedColumns = ['position', 'name', 'weight', 'symbol', '1', '2', '3', '4', '5', '6'];
   dataSource = ELEMENT_DATA;
+
+
 }
 
 export interface PeriodicElement {
